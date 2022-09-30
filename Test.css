@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: ekmukka;
 }
 p{
     margin-bottom: 0px;
@@ -28,9 +29,10 @@ p{
 .Header-main {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    padding: 0 150px;
+    justify-content: space-between;
     background: #FFFFFF;
-    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.08);
+    box-shadow: inset -7px -4px 9px 3px rgb(0 0 0 / 8%);
 }
 .Header-mainSelection {
     display: flex;
@@ -58,7 +60,7 @@ p{
 }
 .main {
     padding: 0px 150px;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
 }
 .main h4 {
     padding-top: 20px;
@@ -112,6 +114,9 @@ p{
    margin-bottom: 48px;
    position: relative;
 }
+.img-product {
+    position: relative;
+}
 .product p {
     margin-top: 20px;
     font-size: 18px;
@@ -130,7 +135,7 @@ p{
     margin-right: 22px;
     font-weight: 500;
 } 
-.img-product{
+.listImg {
     position: relative;
 }
 .img-product img{
@@ -147,8 +152,11 @@ p{
     top: 6px;
     left: 8px;
 }
-.img-product:hover{
-    background-image: url(./Rectangle\ 4555.png);
+.img1{
+    display: block;
+}
+.img2 {
+    display: none;
 }
 .pagination {
     display: flex;
@@ -223,3 +231,12 @@ p{
     background-color: #1DC1CC;
     text-align: center;
 }
+@font-face {
+    font-family: ekmukka;
+    src: url(./Mukta-Regular.ttf);
+}
+/* .img-product {
+    width: 100%;
+    height: 300px;
+    background-image:url(./Rectangle\ 4552.png);
+} */
