@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+.Header-top p{
+    background-color: #00B8C4;
+    color: #FFFFFF;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Header-mainLogo {
+   height: 97px;
+   width: 127px;
+}
+.Header-mainLogo img {
+    height: 100%;
+    width: 100%;
+}
+.Header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.08);
+}
+.Header-mainSelection {
+    display: flex;
+}
+.Header-mainright {
+    display: flex;
+}
+.Header-mainSelection p {
+    font-size: 18px;
+    line-height: 36px;
+    margin-right: 40px;
+}
+.Header-mainright {
+    display: flex;
+  justify-content: space-between;
+}
+.Mainright-icondown {
+    display: flex;
+}
+.Mainright-icondown p {
+    margin-right: 5px;
+}
+.Header-mainright p{
+    margin-left: 40px;
+}
+.main {
+    padding: 0px 150px;
+    background-color: #E5E5E5;
+}
+.main h4 {
+    padding-top: 20px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height:24px;
+    font-weight: 400;
+}
+.Product-category {
+    display: flex;
+    align-items: center;
+}
+.Product-category .dropdown-toggle:hover {
+   background-color: #FFFFFF;
+   color: #C4C4C4;
+}
+.main-title {
+    display: flex;
+  justify-content: space-between;
+}
+.Product-category .dropdown {
+    margin-right: 32px;  
+}
+.Product-category .dropdown-toggle{
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right:  2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+   background-color: #FFFFFF;
+  
+   
+}
+.Title-Product {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 400;
+}
+.list-product {
+    margin-top: 90px;
+}
+
+.list-product{
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+   /* margin-right: 30px; */
+   width: 23%;
+   margin-bottom: 48px;
+   position: relative;
+}
+.product p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.product-priceold {
+   
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 66%;
+}
+.product-pricenow {
+    font-size: 20px;
+    margin-right: 22px;
+    font-weight: 500;
+} 
+.img-product{
+    position: relative;
+}
+.img-product img{
+    width: 100%;
+}
+.img-cart {
+    position: absolute;
+    bottom: 32px;
+    right: 1.5%;
+
+}
+.img-carticon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.img-product:hover{
+    background-image: url(./Rectangle\ 4555.png);
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+.pagination-number button{
+    width: 16px;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.pagination-number  span{
+    margin-right: 10px;
+} 
+.context{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.context p{
+    margin-bottom: 16px;
+}
+.footer{
+    background-color:rgba(29, 193, 204, 0.21);
+    display: flex;
+   justify-content: space-evenly;
+}
+.footer-logo {
+    width: 18%;
+    padding-top: 58px;
+}
+.footer-logo img {
+    margin-bottom: 16px;
+}
+.footer-logo p{
+    margin-bottom: 30px;
+}
+.footer-logo i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.footer-about, .footer-sevice,.footer-mail {
+    margin-top: 100px;
+    width: 18%;
+}
+.footer-about p, .footer-sevice p,.footer-mail p{
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.footer-about h3,.footer-sevice h3,.footer-mail h3{
+    margin-bottom: 14px;
+}
+.mail-input {
+    position: relative;
+    width: 100%;
+}
+.mail-input input {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.mail-input div {
+    position: absolute;
+    top :0;
+    width: 20px;
+}
+.footer-custom {
+    padding: 22px 0;
+    background-color: #1DC1CC;
+    text-align: center;
+}
