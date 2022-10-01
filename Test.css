@@ -45,6 +45,12 @@ p{
     line-height: 36px;
     margin-right: 40px;
 }
+.Header-mainSelection p:hover{
+    cursor: pointer;
+}
+.product:hover{
+    cursor: pointer;
+}
 .Header-mainright {
     display: flex;
   justify-content: space-between;
@@ -195,9 +201,14 @@ p{
 .footer-logo p{
     margin-bottom: 30px;
 }
-.footer-logo i{
-    font-size: 25px;
-    margin-right: 20px;
+.mail-input{
+    position: relative;
+} 
+.mail-input img{
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
 }
 .footer-about, .footer-sevice,.footer-mail {
     margin-top: 100px;
