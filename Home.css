@@ -217,7 +217,7 @@
     width: 100%;
     height: 400px;
     position: relative;
-    background-image: url(/Frame\ 8780.png);
+    background-image: url('./Frame\ 8780.png');
     background-size: contain;
 }
 .banner-main img[alt = "left"]{
@@ -413,7 +413,7 @@
 }
 @font-face {
     font-family: ekmukka;
-    src: url(.././Mukta-Regular.ttf);
+    src: url(./Mukta-Regular.ttf);
 }
 @media only screen and (max-width: 600px){
     .bannerimg-text{
